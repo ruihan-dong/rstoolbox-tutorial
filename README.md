@@ -1,7 +1,7 @@
 # rstoolbox-tutorial
 
 
-## Files in this repository
+### Files in this repository
 
 * rstoolbox tutorial 22-05-31.pptx: introductions, codes and figures
 
@@ -17,7 +17,7 @@
 
 
 
-## Contents
+### Contents
 
 * Reading scores
 * Sorting and selecting
@@ -32,7 +32,7 @@
 
 
 
-## References
+### References
 
 [rstoolbox: Python Toolbox For Rosetta Silent Files Processing ](https://github.com/LPDI-EPFL/rstoolbox/)
 
