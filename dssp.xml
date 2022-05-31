@@ -1,0 +1,17 @@
+<ROSETTASCRIPTS>
+    <MOVERS>
+        <WriteSSEMover dssp="1" name="w" write_phipsi="true" />
+        <MinMover name="m" bb="true" chi="true" tolerance=".1" />
+    </MOVERS>
+    <FILTERS>
+        <CavityVolume name="cavity" confidence="0" />
+        <PackStat name="pack" confidence="0" />
+        <AverageDegree name="avdegree" confidence="0" />
+    </FILTERS>
+    <PROTOCOLS>
+        <Add mover="w" />
+        <Add filter="cavity" />
+        <Add filter="pack" />
+        <Add filter="avdegree" />
+    </PROTOCOLS>
+</ROSETTASCRIPTS>
